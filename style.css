@@ -1,0 +1,206 @@
+/**************************************** TAG SELECTOR *************************************/
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;   
+    font-family: 'Merriweather', serif;    
+}
+
+h1 {
+    color: #66bfbf;
+    margin: 50px 10px 0 10px; 
+    font-family: 'Sacramento', cursive;
+    font-size: 5.2rem;  
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;    
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    border: none;
+}
+
+hr {
+    border: dotted #EAF6F6 6px; 
+    border-bottom: none;   
+    width: 6%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: gold;
+}
+
+/**************************************** CLASS SELECTOR *************************************/
+
+.top-container{
+    background-color: #e4f9f5; 
+    position: relative;
+    padding: 80px 0;       
+}
+
+.left-row {
+    display: inline-block;          
+}
+
+.center-row {
+    display: inline-block;      
+}
+
+.right-row {    
+    display: inline-block;    
+    margin: 0;            
+}
+
+.middle-container{
+   margin: 10px 0 100px;
+}
+
+.bottom-container{
+    background-color: #e4f9f5; 
+    padding: 50px 0 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;    
+}
+
+.books-list {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.soft {
+    text-decoration: underline;    
+}
+
+.top-tree {
+    height: 200px;
+    width: 150px;
+    padding: 0;        
+}
+
+.bottom-cloud {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+}
+
+.pro-image {
+    margin: 50px auto 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.bird-image {
+    height: 200px;
+    width: 200px;
+}
+
+.intro-text {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.skill-image {
+    width: 25%;    
+    float: left;
+    margin-right: 30px;       
+}
+
+.computer-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*
+.rap-none {
+    clear: right;
+}
+*/
+
+.resources {
+     
+    color: #11999e;   
+}
+
+.copyright {
+    color: #11999e;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .book-ankor {
+    padding: 0;
+    margin: 0;
+  }
+
+  .book-ankor:hover {
+    color: gold;
+  }
+
+  .books-text {
+    padding: 50px 0 0 0;
+    font-size: 2rem;
+  }
