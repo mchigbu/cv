@@ -24,7 +24,7 @@ h2 {
 
 h3 {
     color: #11999e;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 img {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .skill-row {
-    width: 50%;
+    width: 80%;
     margin: 100px auto 100px auto;
     text-align: left;    
 }
@@ -127,13 +127,17 @@ a:hover {
 }
 
 .intro-text {
-    width: 30%;
+    width:80%;
     margin: auto;
 }
 
 .contact-message {
-    width: 40%;
+    width: 60%;
     margin: 40px auto 60px;
+}
+
+.contact-pad {
+    padding: 0 20px;
 }
 
 .skill-image {
